@@ -1,0 +1,2 @@
+Data read from input.txt:this is a sample text
+Date created Thu Oct 10 2024 22:11:34 GMT+0500 (Pakistan Standard Time)
