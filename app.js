@@ -102,3 +102,28 @@ myEmitter.on('UserCreated',(id,name)=>{
 })
 
 myEmitter.emit("UserCreated",101,'john')
+
+
+// reading a file via streams lec 23
+// server.on('request',(req,res)=>{
+//     let rs = fs.createReadStream('./largeFile.txt')
+
+//     rs.on('data',(chunk)=>{
+//         rs.write(chunk);
+//     })
+
+//     rs.on('end',()=>{
+//         rs.end();
+//     })
+
+//     rs.on('error',(error)=>{
+//         rs.end(error.message)
+//     })
+// })
+
+// reading a file via pipe
+// server.on('request',(req,res)=>{
+//     let rs = fs.createReadStream('./largeFile.txt')
+//     rs.pipe(res);
+// })
+
